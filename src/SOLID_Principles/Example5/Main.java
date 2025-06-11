@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // SOLID prinsiples
+        // D - DIP
         RegularEngine regularEngine = new RegularEngine();
 
         TurboEngine turboEngine = new TurboEngine();
