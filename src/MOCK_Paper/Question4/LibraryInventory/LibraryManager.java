@@ -39,7 +39,7 @@ public class LibraryManager {
 
         boolean removedItem = false;
 
-        for (int i = 0; i <bookArrayList.size(); i++){
+        for (int i = 0; i < bookArrayList.size(); i++){
             if (bookArrayList.get(i).getIsbn().equals(isbn2Remove)){
                 System.out.println("\nBook removed Success ! : " + bookArrayList.get(i).getIsbn());
                 bookArrayList.remove(i);
