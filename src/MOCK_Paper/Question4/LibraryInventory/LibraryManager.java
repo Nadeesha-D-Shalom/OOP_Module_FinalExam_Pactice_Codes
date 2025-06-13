@@ -27,7 +27,10 @@ public class LibraryManager {
             System.out.print("Enter the Book Title   : ");
             bookTitle = scanner.next();
 
-            bookArrayList.add(new Book(bookISBN,bookTitle));
+          //  bookArrayList.add(new Book(bookISBN,bookTitle));
+
+            Book book = new Book(bookISBN,bookTitle);
+            bookArrayList.add(book);
 
             System.out.println("\nEnter -99 to ISBN to tnd the program..!\n");
         }
@@ -52,8 +55,8 @@ public class LibraryManager {
         }
 
 
-//        for (Book book : bookArrayList)
-//            System.out.println(book.displayDetails());
+        for (Book book : bookArrayList)
+            book.displayDetails();
 
 
 
