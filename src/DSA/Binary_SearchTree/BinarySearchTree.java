@@ -1,7 +1,6 @@
 package DSA.Binary_SearchTree;
 
 public class BinarySearchTree {
-
     private Node root;
 
     class Node{
@@ -19,11 +18,10 @@ public class BinarySearchTree {
     }
 }
 
-
 class Main{
     public static void main(String[] args) {
         BinarySearchTree binarySearchTree = new BinarySearchTree();
 
-        System.out.println("Root is " + binarySearchTree.getRoot());
+        System.out.println("Root : " + binarySearchTree.getRoot());
     }
 }
