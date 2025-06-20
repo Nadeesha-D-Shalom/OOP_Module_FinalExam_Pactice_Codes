@@ -12,7 +12,7 @@ class Node {
 
 public class BinaryTreeQ1 {
     public static void inorder(Node root) {
-        if (root != null) {
+        if (root != null) { //
             inorder(root.left);
             System.out.print(root.data + " ");
             inorder(root.right);
